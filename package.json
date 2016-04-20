@@ -1,0 +1,22 @@
+{
+  "name": "newstart",
+  "version": "1.0.0",
+  "description": "Checkout form example",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/francamps/swd-one-pretty-little-form.git"
+  },
+  "author": "Franc <francamps@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francamps/swd-one-pretty-little-form/issues"
+  },
+  "homepage": "https://github.com/francamps/swd-one-pretty-little-form",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

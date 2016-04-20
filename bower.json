@@ -1,0 +1,24 @@
+{
+  "name": "newstart",
+  "version": "0.0.0",
+  "authors": [
+    "Franc"
+  ],
+  "description": "Checkout polymer example",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "www.gihtub.com/francamps/onebiguglyform",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~1.4.0"
+  }
+}
