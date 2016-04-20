@@ -1,0 +1,15 @@
+paper-card {
+  min-width: 200px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+paper-card.paper-card-0 {
+  display: block;
+  max-width: 400px;
+}
+
+paper-card.paper-card-0 .header.paper-card .title-text.paper-card {
+  font-size: 16px;
+  padding: 0;
+}

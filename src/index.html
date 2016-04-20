@@ -4,11 +4,34 @@
     <meta charset="utf-8"></meta>
     <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
     <title>One pretty, little form</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- ADDING POLYMER ELEMENTS -->
+    <!-- 1. Load webcomponents-lite.min.js for polyfill support. -->
+    <script src="../bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+    <link rel="import" href="../bower_components/paper-card/paper-card.html">
+    <link rel="import" href="../bower_components/paper-input/paper-input.html">
+    <link rel="import" href="../bower_components/paper-progress/paper-progress.html">
   </head>
   <body>
     <header>Company</header>
-    <section id="progress-bar"></section>
-    <section id="shopping-cart-summary"></section>
-    <section id="checkout-form"></section>
+    <section id="progress-bar">
+      <paper-progress></paper-progress>
+    </section>
+    <section id="shopping-cart-summary">
+      <paper-card heading="Items to purchase">
+        <div className="" id="item0"></div>
+      </paper-card>
+    </section>
+    <section id="checkout-form">
+      <paper-card id="person-info" heading="Your info">
+        <div className="">
+          <paper-input label="Full name"></paper-input>
+        </div>
+      </paper-card>
+      <paper-card id="billing-info" heading="Payment info">
+        <div></div>
+      </paper-card>
+    </section>
   </body>
 </html>
